@@ -6,8 +6,8 @@ public class startApps {
         JFrame jframe = new JFrame("Numeric System Converter");
         jframe.setContentPane(new numeric_system_converter().getRoot());
         jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jframe.pack();
         jframe.setLocationRelativeTo(null);
-        jframe.setSize(500,200);
         jframe.setVisible(true);
     }
 }
